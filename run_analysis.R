@@ -67,5 +67,5 @@ names(df_tidy) <- c(names(df_tidy[1:3]),paste0("Avg_",names(df_tidy[3:ncol(df_ti
 ###-------------------------------------------------------------------------###
 ### write output
 ###
-write.table(df_tidy, file="ProgrammingAssignment_TidyDataSet.txt",row.name=FALSE)
+write.table(df_tidy, file="TidyDataSet.txt",row.name=FALSE)
 
