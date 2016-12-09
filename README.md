@@ -5,7 +5,7 @@ date: "December 8, 2016"
 output: html_document
 ---
 
-## This contains a short explanation to run_analysis
+## Short explanation to run_analysis
 
 This exercise is based on study data (cf. http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
 
