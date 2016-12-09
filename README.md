@@ -7,11 +7,11 @@ output: html_document
 
 ## Short explanation to run_analysis
 
-This exercise is based on study data (cf. http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
+This exercise is based on study data. See http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for details.
 
 Codebook.md contains a description of the variables given in the final tidy data set ProgrammingAssignment_TidyDataSet.txt.  
 
-run_analsis.R contains the actual data processing consisting of the following steps 
+run_analsis.R can execute the actual data processing which consists of the following steps 
 
 0. Make sure to install and load the packages dplyr and tidyr
 1. input of the necessary train and test data from the raw data files
