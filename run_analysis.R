@@ -62,7 +62,7 @@ df_interim <- group_by(df_interim, source_file, subject, activity_label, measure
       summarise(avg_measure_value = mean(measure_value))
 # spread variables again so that each variable is in one column and rename to make obvious that those are averages
 df_tidy <- spread(df_interim, measure_name, avg_measure_value)
-names(df_tidy) <- c(names(df_tidy[1:3]),paste0("Avg_",names(df_tidy[3:ncol(df_tidy)])))
+names(df_tidy) <- c(names(df_tidy[1:3]),paste0("Avg_",names(df_tidy[4:ncol(df_tidy)])))
 
 ###-------------------------------------------------------------------------###
 ### write output
